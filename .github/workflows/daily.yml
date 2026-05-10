@@ -1,0 +1,69 @@
+name: Daily job monitor
+
+# When does this run?
+on:
+  schedule:
+    # 12:00 UTC = 7:00 AM Houston time (CDT, UTC-5).
+    # In Nov–Mar (CST, UTC-6), this becomes 6:00 AM Houston.
+    # Edit this if you want a different time. Format is standard cron:
+    #   minute hour day month day-of-week
+    - cron: '0 12 * * *'
+  # Also let you trigger it manually from the Actions tab in GitHub.
+  workflow_dispatch:
+
+# This workflow needs to commit the dedup DB and reports back to the repo,
+# so it needs write permission on repo contents.
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run job monitor
+        env:
+          # These pull from your repo's Actions Secrets (Settings → Secrets
+          # → Actions). If a secret isn't set, the script just skips email
+          # — it still writes the Markdown report to disk.
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO:  ${{ secrets.EMAIL_TO }}
+        run: python job_monitor.py
+
+      - name: Upload latest report as workflow artifact
+        # Lets you download the report from the Actions tab even if the
+        # commit-back step fails for some reason.
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-report
+          path: reports/latest.md
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit dedup database and reports back to repo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen_jobs.db reports/ || true
+          if git diff --cached --quiet; then
+            echo "Nothing changed — skipping commit."
+          else
+            git commit -m "Daily run $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
