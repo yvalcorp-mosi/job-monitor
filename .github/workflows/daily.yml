@@ -16,6 +16,12 @@ on:
 permissions:
   contents: write
 
+# Prevent two runs from racing each other on the push back to main.
+# If a new run is triggered while one is in progress, the new one waits.
+concurrency:
+  group: job-monitor
+  cancel-in-progress: false
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
@@ -65,5 +71,9 @@ jobs:
             echo "Nothing changed — skipping commit."
           else
             git commit -m "Daily run $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # Pull any concurrent changes before pushing — handles the case
+            # where someone edited the repo via the web UI between this
+            # workflow's checkout and its push.
+            git pull --rebase --autostash origin main || git rebase --abort
             git push
           fi
