@@ -116,19 +116,49 @@ LEVER_COMPANIES = [
 # Add or remove keywords to broaden / narrow the filter.
 SENIORITY_KEYWORDS = [
     "senior", "sr.", "sr ", "staff", "principal", "lead",
-    "architect", "manager",
+    "architect", "manager", "director", "head of", "head,",
+    "avp", "vp,", "vp ",
+]
+
+# Titles matching any of these phrases skip the seniority check.
+# Use this for role names that are typically mid/senior by default
+# (e.g. "IAM Engineer", "Linux Engineer") even without a "Senior" prefix.
+SENIOR_BY_DEFAULT = [
+    "iam engineer",
+    "it server engineer",
+    "linux engineer",
+    "server engineer",
+    "windows engineer",
+    "vmware engineer",
+]
+
+# Hard reject any title containing these words — they signal entry-level
+# regardless of other matches. ("Associate" intentionally NOT here:
+# "Associate Director" or "Senior Associate" are mid/senior in many orgs.)
+JUNIOR_EXCLUSIONS = [
+    "junior", "jr.", "jr ", "intern", "internship",
+    "entry-level", "entry level", "trainee", "apprentice",
+    "graduate program",
 ]
 
 # Title MUST contain at least one of these (case-insensitive).
 # This list is deliberately broad to catch vendor-specific naming
-# (e.g. "Active Defense" at CrowdStrike, "Concierge Security" at Arctic Wolf).
+# (e.g. "Active Defense" at CrowdStrike, "Concierge Security" at Arctic Wolf)
+# AND adjacent infrastructure roles that fit Paul's 15+ years of
+# Linux/VMware/Windows server experience.
 DOMAIN_KEYWORDS = [
+    # cybersecurity core
     "security", "soc", "cyber", "detection", "incident", "threat",
     "falcon", "mdr", "siem", "secops", "appsec", "cloud security",
     "infosec", "infrastructure security", "trust", "defense",
     "vulnerability", "pentest", "penetration test", "red team",
     "blue team", "purple team", "iam", "identity", "grc",
     "fraud", "abuse", "concierge", "forensic",
+    # IT / infrastructure (Linux Engineer, IT Server Engineer, etc.)
+    "linux", "windows server", "vmware", "server engineer",
+    "systems engineer", "systems administrator", "system admin",
+    "sysadmin", "infrastructure", "platform engineer", "devops",
+    "site reliability", "sre", "cloud engineer", "cloud architect",
 ]
 
 # Location MUST contain at least one of these (case-insensitive).
@@ -274,8 +304,17 @@ def matches_filter(job: dict) -> bool:
     title = (job.get("title") or "").lower()
     loc = (job.get("location") or "").lower()
 
-    if not any(k in title for k in SENIORITY_KEYWORDS):
+    # Hard reject if the title is clearly entry-level.
+    if any(k in title for k in JUNIOR_EXCLUSIONS):
         return False
+
+    # Accept if the title has either a seniority keyword OR is a
+    # role type that's senior by default (e.g. "Linux Engineer").
+    has_seniority = any(k in title for k in SENIORITY_KEYWORDS)
+    has_default_senior = any(k in title for k in SENIOR_BY_DEFAULT)
+    if not (has_seniority or has_default_senior):
+        return False
+
     if not any(k in title for k in DOMAIN_KEYWORDS):
         return False
     if LOCATION_KEYWORDS and not any(k in loc for k in LOCATION_KEYWORDS):
