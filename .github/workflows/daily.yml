@@ -66,14 +66,28 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Save our newly-generated artifacts to a temp location outside
+          # the repo. This way we can safely reset the repo to a clean
+          # remote state without losing what the script just produced.
+          mkdir -p /tmp/monitor_artifacts
+          [ -f seen_jobs.db ] && cp seen_jobs.db /tmp/monitor_artifacts/
+          [ -d reports ] && cp -r reports /tmp/monitor_artifacts/
+
+          # Sync to whatever is on remote main right now. This handles all
+          # the cases that would otherwise cause push-rejection or rebase
+          # conflicts: parallel workflow runs, manual web-UI edits, etc.
+          git fetch origin main
+          git reset --hard origin/main
+
+          # Lay our artifacts back on top of the fresh remote state.
+          [ -f /tmp/monitor_artifacts/seen_jobs.db ] && cp /tmp/monitor_artifacts/seen_jobs.db .
+          [ -d /tmp/monitor_artifacts/reports ] && cp -r /tmp/monitor_artifacts/reports .
+
           git add seen_jobs.db reports/ || true
           if git diff --cached --quiet; then
             echo "Nothing changed — skipping commit."
           else
             git commit -m "Daily run $(date -u +'%Y-%m-%d %H:%M UTC')"
-            # Pull any concurrent changes before pushing — handles the case
-            # where someone edited the repo via the web UI between this
-            # workflow's checkout and its push.
-            git pull --rebase --autostash origin main || git rebase --abort
             git push
           fi
