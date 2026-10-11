@@ -1,13 +1,8 @@
-# Cybersecurity job monitor — 2026-10-10
+# Cybersecurity job monitor — 2026-10-11
 
-_Run at 2026-10-10 16:31:48. 4 new matches since last run, 196 total open matches across all monitored companies._
+_Run at 2026-10-11 16:56:22. 0 new matches since last run, 196 total open matches across all monitored companies._
 
-## Other new matches — 4 new
-
-- **huntress** — [Principal macOS Security Researcher](https://job-boards.greenhouse.io/huntress/jobs/8014350003) · United States of America · _via greenhouse_
-- **elastic** — [Principal Software Engineer I - CI/CD - Platform Engineering Productivity](https://jobs.elastic.co/jobs?gh_jid=8240105&gh_jid=8240105) · United States · _via greenhouse_
-- **gitlab** — [Senior Software Engineer, Security Factory: Code Security](https://job-boards.greenhouse.io/gitlab/jobs/8738179002) · Remote, Canada; Remote, United States · _via greenhouse_
-- **gitlab** — [Staff Software Engineer, Security Factory: Static Analysis](https://job-boards.greenhouse.io/gitlab/jobs/8693563002) · Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States · _via greenhouse_
+_No new matching jobs since last run. The script is working — it's just that no matching reqs were posted in the interval._
 
 ## All currently-open matches across all companies (196)
 
