@@ -1,32 +1,35 @@
-# Cybersecurity job monitor — 2026-11-01
+# Cybersecurity job monitor — 2026-11-02
 
-_Run at 2026-11-01 17:21:48. 0 new matches since last run, 180 total open matches across all monitored companies._
+_Run at 2026-11-02 20:58:45. 2 new matches since last run, 179 total open matches across all monitored companies._
 
-_No new matching jobs since last run. The script is working — it's just that no matching reqs were posted in the interval._
+## Other new matches — 2 new
 
-## All currently-open matches across all companies (180)
+- **airbnb** — [Senior Application Security Engineer](https://careers.airbnb.com/positions/8337480?gh_jid=8337480) · United States · _via greenhouse_
+- **gitlab** — [Incident & Escalation Lead- Enterprise Customers](https://job-boards.greenhouse.io/gitlab/jobs/8923121002) · Remote, Canada; Remote, United States · _via greenhouse_
+
+## All currently-open matches across all companies (179)
 
 These are every matching open req on the monitored ATS endpoints right now, including ones you've already seen. Use this as your complete pipeline view.
 
 - **affirm** — [Analytics Lead, Deposit Fraud Risk](https://job-boards.greenhouse.io/affirm/jobs/8004096003) · Remote US · _via greenhouse_
 - **affirm** — [Director, Information Technology & Security](https://job-boards.greenhouse.io/affirm/jobs/7607567003) · Remote US · _via greenhouse_
-- **affirm** — [Manager, Fraud Operations](https://job-boards.greenhouse.io/affirm/jobs/7821078003) · Remote Canada · _via greenhouse_
 - **affirm** — [Manager, Fraud Operations](https://job-boards.greenhouse.io/affirm/jobs/7821076003) · Remote US · _via greenhouse_
+- **affirm** — [Manager, Fraud Operations](https://job-boards.greenhouse.io/affirm/jobs/7821078003) · Remote Canada · _via greenhouse_
 - **affirm** — [Manager, Software Engineering (Identity)](https://job-boards.greenhouse.io/affirm/jobs/8012584003) · Remote UK · _via greenhouse_
 - **affirm** — [Security Risk Management Lead](https://job-boards.greenhouse.io/affirm/jobs/7718808003) · Remote US · _via greenhouse_
 - **affirm** — [Security Risk Management Lead](https://job-boards.greenhouse.io/affirm/jobs/8036613003) · Remote Canada · _via greenhouse_
 - **affirm** — [Senior Machine Learning Engineer (Fraud)](https://job-boards.greenhouse.io/affirm/jobs/7806920003) · Remote Canada · _via greenhouse_
-- **affirm** — [Senior Manager, Security Incident Response](https://job-boards.greenhouse.io/affirm/jobs/8045376003) · Remote US · _via greenhouse_
 - **affirm** — [Senior Manager, Security Incident Response](https://job-boards.greenhouse.io/affirm/jobs/8045378003) · Remote Canada · _via greenhouse_
+- **affirm** — [Senior Manager, Security Incident Response](https://job-boards.greenhouse.io/affirm/jobs/8045376003) · Remote US · _via greenhouse_
 - **affirm** — [Senior Product Security Engineer](https://job-boards.greenhouse.io/affirm/jobs/8042128003) · Remote US · _via greenhouse_
-- **affirm** — [Senior Software Engineer, Back-end (Fraud)](https://job-boards.greenhouse.io/affirm/jobs/7806679003) · Remote Spain · _via greenhouse_
 - **affirm** — [Senior Software Engineer, Back-end (Fraud)](https://job-boards.greenhouse.io/affirm/jobs/7806681003) · Remote Poland · _via greenhouse_
-- **affirm** — [Senior Software Engineer, Backend (Batch Infrastructure)](https://job-boards.greenhouse.io/affirm/jobs/7785814003) · Remote Canada · _via greenhouse_
+- **affirm** — [Senior Software Engineer, Back-end (Fraud)](https://job-boards.greenhouse.io/affirm/jobs/7806679003) · Remote Spain · _via greenhouse_
 - **affirm** — [Senior Software Engineer, Backend (Batch Infrastructure)](https://job-boards.greenhouse.io/affirm/jobs/7785812003) · Remote US · _via greenhouse_
+- **affirm** — [Senior Software Engineer, Backend (Batch Infrastructure)](https://job-boards.greenhouse.io/affirm/jobs/7785814003) · Remote Canada · _via greenhouse_
 - **affirm** — [Senior Software Engineer, Backend (Identity Data)](https://job-boards.greenhouse.io/affirm/jobs/8017503003) · Remote US · _via greenhouse_
 - **affirm** — [Senior Software Engineer, Backend (Identity Data) ](https://job-boards.greenhouse.io/affirm/jobs/8017505003) · Remote Canada · _via greenhouse_
-- **affirm** — [Staff CIAM Software Engineer](https://job-boards.greenhouse.io/affirm/jobs/7819451003) · Remote Canada · _via greenhouse_
 - **affirm** — [Staff CIAM Software Engineer](https://job-boards.greenhouse.io/affirm/jobs/7819449003) · Remote US · _via greenhouse_
+- **affirm** — [Staff CIAM Software Engineer](https://job-boards.greenhouse.io/affirm/jobs/7819451003) · Remote Canada · _via greenhouse_
 - **affirm** — [Staff Security Engineer, Enterprise AI](https://job-boards.greenhouse.io/affirm/jobs/7994555003) · Remote Canada · _via greenhouse_
 - **affirm** — [Staff Security Engineer, Enterprise AI](https://job-boards.greenhouse.io/affirm/jobs/7994553003) · Remote US · _via greenhouse_
 - **affirm** — [Staff Software Engineer, Backend (Fraud Decisioning)](https://job-boards.greenhouse.io/affirm/jobs/7995361003) · Remote Canada · _via greenhouse_
@@ -37,6 +40,7 @@ These are every matching open req on the monitored ATS endpoints right now, incl
 - **affirm** — [Staff Software Engineer, Mobile (App Infrastructure)](https://job-boards.greenhouse.io/affirm/jobs/7829429003) · Remote Canada · _via greenhouse_
 - **airbnb** — [Associate Principal, Procurement Innovation Supplier Programs](https://careers.airbnb.com/positions/8231416?gh_jid=8231416) · United States  · _via greenhouse_
 - **airbnb** — [Product Manager, Social Features](https://careers.airbnb.com/positions/8282322?gh_jid=8282322) · United States · _via greenhouse_
+- **airbnb** — [Senior Application Security Engineer](https://careers.airbnb.com/positions/8337480?gh_jid=8337480) · United States · _via greenhouse_
 - **airbnb** — [Senior Platform Product Manager, Trust and Safety](https://careers.airbnb.com/positions/8029984?gh_jid=8029984) · United States  · _via greenhouse_
 - **airbnb** — [Senior Social Manager, Instagram](https://careers.airbnb.com/positions/8241573?gh_jid=8241573) · San Francisco, United States  · _via greenhouse_
 - **airbnb** — [Senior Software Engineer, Streaming Infrastructure ](https://careers.airbnb.com/positions/8242235?gh_jid=8242235) · United States · _via greenhouse_
@@ -54,7 +58,6 @@ These are every matching open req on the monitored ATS endpoints right now, incl
 - **anthropic** — [Staff+ Software Engineer, Data Infrastructure](https://job-boards.greenhouse.io/anthropic/jobs/5114768008) · Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY · _via greenhouse_
 - **appian** — [Principal ML Platform Engineer](https://job-boards.greenhouse.io/appian/jobs/8204952) · United States · _via greenhouse_
 - **boxinc** — [Senior Incident Commander, Cloud Ops](https://job-boards.greenhouse.io/boxinc/jobs/8250406) · Redwood City, CA, United States · _via greenhouse_
-- **boxinc** — [Staff Product Manager, AI Security](https://job-boards.greenhouse.io/boxinc/jobs/8266698) · Redwood City, CA, United States · _via greenhouse_
 - **brex** — [Partner Operations Program Manager, Associate](https://www.brex.com/careers/8925893002?gh_jid=8925893002) · Salt Lake City, Utah, United States · _via greenhouse_
 - **brex** — [Senior Growth Marketing Manager, Paid Social](https://www.brex.com/careers/8784425002?gh_jid=8784425002) · Salt Lake City, Utah, United States · _via greenhouse_
 - **brex** — [Senior Growth Marketing Manager, Paid Social](https://www.brex.com/careers/8784418002?gh_jid=8784418002) · Seattle, Washington, United States · _via greenhouse_
@@ -106,14 +109,13 @@ These are every matching open req on the monitored ATS endpoints right now, incl
 - **datadog** — [Senior Manager, Product Design - Security](https://careers.datadoghq.com/detail/8281102/?gh_jid=8281102) · New York, New York, USA · _via greenhouse_
 - **datadog** — [Senior Platform Product Manager - AI SDLC Trusted Throughput](https://careers.datadoghq.com/detail/7947683/?gh_jid=7947683) · New York, New York, USA · _via greenhouse_
 - **datadog** — [Senior Product Marketing Manager - Incident Response](https://careers.datadoghq.com/detail/8121553/?gh_jid=8121553) · New York, New York, USA; San Francisco, California, USA · _via greenhouse_
+- **datadog** — [Senior Security Sales Engineer](https://careers.datadoghq.com/detail/8141243/?gh_jid=8141243) · California, USA, Remote; Colorado, USA, Remote; Washington, USA, Remote · _via greenhouse_
 - **datadog** — [Senior Security Sales Engineer](https://careers.datadoghq.com/detail/8141240/?gh_jid=8141240) · Florida, USA, Remote; Georgia, USA, Remote; Massachusetts, USA, Remote; New York, USA, Remote · _via greenhouse_
 - **datadog** — [Senior Security Sales Engineer](https://careers.datadoghq.com/detail/7554877/?gh_jid=7554877) · Illinois, USA, Remote; Texas, USA, Remote · _via greenhouse_
-- **datadog** — [Senior Security Sales Engineer](https://careers.datadoghq.com/detail/8141243/?gh_jid=8141243) · California, USA, Remote; Colorado, USA, Remote; Washington, USA, Remote · _via greenhouse_
 - **discord** — [Engineering Manager, Platform Security](https://job-boards.greenhouse.io/discord/jobs/8649856002) · Remote (West Coast) · _via greenhouse_
 - **discord** — [Threat Investigator Team Lead](https://job-boards.greenhouse.io/discord/jobs/8652914002) · Remote (U.S.) · _via greenhouse_
 - **elastic** — [Principal Competitive Intelligence Manager - Security](https://jobs.elastic.co/jobs?gh_jid=8302154&gh_jid=8302154) · United States · _via greenhouse_
 - **elastic** — [Principal Product Manager, Security Pricing and Packaging (Serverless) - Security Solutions](https://jobs.elastic.co/jobs?gh_jid=8316745&gh_jid=8316745) · United States · _via greenhouse_
-- **elastic** — [Principal Security Compliance Analyst - Public Sector - InfoSec](https://jobs.elastic.co/jobs?gh_jid=8166582&gh_jid=8166582) · United States · _via greenhouse_
 - **elastic** — [Principal Software Engineer - Security - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8082612&gh_jid=8082612) · United States · _via greenhouse_
 - **elastic** — [Principal Software Engineer I - CI/CD - Platform Engineering Productivity](https://jobs.elastic.co/jobs?gh_jid=8240105&gh_jid=8240105) · United States · _via greenhouse_
 - **elastic** — [Senior Incident Response Analyst - InfoSec](https://jobs.elastic.co/jobs?gh_jid=8274371&gh_jid=8274371) · United States · _via greenhouse_
@@ -126,6 +128,7 @@ These are every matching open req on the monitored ATS endpoints right now, incl
 - **gitlab** — [Associate Renewals Manager, SMB](https://job-boards.greenhouse.io/gitlab/jobs/8857185002) · Remote, Canada; Remote, United States · _via greenhouse_
 - **gitlab** — [Director of Engineering, Dedicated Infrastructure & Platforms](https://job-boards.greenhouse.io/gitlab/jobs/8883597002) · Remote, Canada; Remote, United Kingdom; Remote, United States · _via greenhouse_
 - **gitlab** — [Director, Social Media](https://job-boards.greenhouse.io/gitlab/jobs/8792475002) · Remote, Canada; Remote, United States · _via greenhouse_
+- **gitlab** — [Incident & Escalation Lead- Enterprise Customers](https://job-boards.greenhouse.io/gitlab/jobs/8923121002) · Remote, Canada; Remote, United States · _via greenhouse_
 - **gitlab** — [Principal Security Researcher](https://job-boards.greenhouse.io/gitlab/jobs/8731718002) · Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States · _via greenhouse_
 - **gitlab** — [Principal Site Reliability Engineer, Platform Engineering: Dedicated](https://job-boards.greenhouse.io/gitlab/jobs/8623592002) · Remote, Canada; Remote, United Kingdom; Remote, United States · _via greenhouse_
 - **gitlab** — [Regional Sales Director, National Security Group](https://job-boards.greenhouse.io/gitlab/jobs/8858174002) · Remote, United States · _via greenhouse_
@@ -185,6 +188,5 @@ These are every matching open req on the monitored ATS endpoints right now, incl
 - **twilio** — [Staff Enterprise Security Engineer, AI Security](https://job-boards.greenhouse.io/twilio/jobs/8160279) · Remote - US · _via greenhouse_
 - **twilio** — [Staff Security Engineer, Threat Hunting](https://job-boards.greenhouse.io/twilio/jobs/8157344) · Remote - US · _via greenhouse_
 - **twilio** — [Staff, Product Manager - Identity](https://job-boards.greenhouse.io/twilio/jobs/8319160) · Remote - US · _via greenhouse_
-- **vectranetworks** — [Director of Security](https://www.vectra.ai/about/jobs?gh_jid=8187890) · San Jose, California, United States · _via greenhouse_
 - **vectranetworks** — [Senior Security Engineer - Federal](https://www.vectra.ai/about/jobs?gh_jid=8026725) · Remote · _via greenhouse_
 - **vectranetworks** — [Senior Security Researcher](https://www.vectra.ai/about/jobs?gh_jid=8071535) · San Jose, CA; Austin, TX; Boston, MA; Dublin, Ireland; US - Remote · _via greenhouse_
