@@ -1,14 +1,8 @@
-# Cybersecurity job monitor — 2026-11-14
+# Cybersecurity job monitor — 2026-11-15
 
-_Run at 2026-11-14 17:26:10. 5 new matches since last run, 183 total open matches across all monitored companies._
+_Run at 2026-11-15 18:07:31. 0 new matches since last run, 183 total open matches across all monitored companies._
 
-## Other new matches — 5 new
-
-- **huntress** — [Principal Product Marketing Manager - Identity](https://job-boards.greenhouse.io/huntress/jobs/8203864003) · United States of America · _via greenhouse_
-- **discord** — [Senior Platform Security Engineer ](https://job-boards.greenhouse.io/discord/jobs/8769799002) · Remote (California, Washington, and Oregon Only) · _via greenhouse_
-- **brex** — [Senior GRC Engineer](https://www.brex.com/careers/8943780002?gh_jid=8943780002) · Seattle, Washington, United States · _via greenhouse_
-- **brex** — [Senior GRC Engineer](https://www.brex.com/careers/8943782002?gh_jid=8943782002) · San Francisco, California, United States · _via greenhouse_
-- **brex** — [Senior GRC Engineer](https://www.brex.com/careers/8943620002?gh_jid=8943620002) · New York, New York, United States · _via greenhouse_
+_No new matching jobs since last run. The script is working — it's just that no matching reqs were posted in the interval._
 
 ## All currently-open matches across all companies (183)
 
@@ -134,8 +128,8 @@ These are every matching open req on the monitored ATS endpoints right now, incl
 - **gitlab** — [Associate Renewals Manager, SMB](https://job-boards.greenhouse.io/gitlab/jobs/8857185002) · Remote, Canada; Remote, United States · _via greenhouse_
 - **gitlab** — [Director of Engineering, Dedicated Infrastructure & Platforms](https://job-boards.greenhouse.io/gitlab/jobs/8883597002) · Remote, Canada; Remote, United Kingdom; Remote, United States · _via greenhouse_
 - **gitlab** — [Director, Social Media](https://job-boards.greenhouse.io/gitlab/jobs/8792475002) · Remote, Canada; Remote, United States · _via greenhouse_
-- **gitlab** — [Incident & Escalation Lead- Enterprise Customers](https://job-boards.greenhouse.io/gitlab/jobs/8924841002) · Remote, United Kingdom · _via greenhouse_
 - **gitlab** — [Incident & Escalation Lead- Enterprise Customers](https://job-boards.greenhouse.io/gitlab/jobs/8923121002) · Remote, Canada; Remote, United States · _via greenhouse_
+- **gitlab** — [Incident & Escalation Lead- Enterprise Customers](https://job-boards.greenhouse.io/gitlab/jobs/8924841002) · Remote, United Kingdom · _via greenhouse_
 - **gitlab** — [Principal Security GRC Manager, Legal Assurance (USA)](https://job-boards.greenhouse.io/gitlab/jobs/8927630002) · Remote, United States · _via greenhouse_
 - **gitlab** — [Principal Security Researcher](https://job-boards.greenhouse.io/gitlab/jobs/8731718002) · Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States · _via greenhouse_
 - **gitlab** — [Regional Sales Director, National Security Group](https://job-boards.greenhouse.io/gitlab/jobs/8858174002) · Remote, United States · _via greenhouse_
